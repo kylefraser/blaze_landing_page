@@ -1,0 +1,297 @@
+@import '_settings'
+
+normalize-css()
+base()
+
+.header-container
+  width: 100%
+  min-width: 640px
+  height: 100vh
+  background: red
+  float: left
+  min-height: 100vh
+  overflow: hidden
+  position: relative
+
+.header-overlay
+  background-image: url("../img/girl.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  opacity: .8
+  height: 100%
+  position: absolute
+  width: 100%
+
+.inner-container
+  width: 60%
+  min-width: 400px
+  margin: 0 auto
+  padding-top: 300px
+
+.nav
+  width: 540px
+  position: absolute
+  top: 0
+  right: 0
+
+  li
+    font-family: 'Raleway', sans-serif
+    font-weight: 300
+    display: inline-block
+    padding: 20px 30px
+
+  li:hover
+    background: red
+    color: white
+    border-radius: 5px
+
+@font-face
+	font-family: devil
+	src: url('../fonts/devil.ttf')
+
+.logo-text
+  font-family: 'Archivo Black', sans-serif
+  font-size: 4em
+  background: -webkit-linear-gradient(#ff7900, #9e130d)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  margin: 0
+  padding: 0
+  text-transform: uppercase
+
+.header-subtitle
+  font-family: 'Montserrat', sans-serif
+  font-weight: 400
+  color: white
+  font-size: 2.5em
+  margin: -20px 0 10px
+  padding: 0
+  width: 300px
+
+.header-thin-subtitle
+  font-family: 'Railway', sans-serif
+  font-weight: 300
+  color: white
+  font-size: 2em
+  margin: 0
+  padding: 0
+
+.about-container
+  height: 60vh
+  width: 100%
+  float: left
+
+.item-container
+  width: 70%
+  margin: 150px 15%
+
+.item-box
+  width: 30%
+  height: 260px
+  margin: 0 1.5%
+  float: left
+
+.icon-detail
+  color: red
+  text-align: center
+
+.item-text
+  font-family: 'Raleway', sans-serif
+  line-height: 1.5
+  font-weight: 400
+
+span
+  font-family: 'Montserrat', sans-serif
+  line-height: 1.5
+  font-weight: 700
+  padding-left: 10px
+
+.slant-container
+  width: 100%
+  height: 400px
+  overflow: hidden
+  padding-top: 100px
+  margin-top: 300px
+  float: left
+
+.slant
+  width: 120%
+  min-width: 1300px
+  height: 300px
+  transform: rotate(5deg)
+  background: red
+  overflow: hidden
+  margin-left: -100px
+
+.slant-overlay
+  background-image: url("../img/trail.JPG")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+  opacity: .5
+  position: absolute
+  width: 100%
+
+.testimonial-container
+  width: 100%
+  height: 200px
+  float: left
+  margin: 50px 0 100px
+
+.testimonial-text-container
+  width: 70%
+  margin: 40px 15%
+
+.testimonial-text
+  font-family: 'Raleway', sans-serif
+  font-size: 2.5em
+  font-weight: 300
+  background: -webkit-linear-gradient(#ff7900, #9e130d)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  text-align: center
+
+.hashtag-container
+  padding-top: 30px
+
+.hashtag
+  font-size: 3.5em
+
+.content-container
+  width: 100%
+  float: left
+
+.panel
+  width: 50%
+  height: 700px
+  float: left
+  background: red
+
+.left-panel-container
+  margin: 0 50px
+  padding-top: 50px
+
+.left-panel-header
+  font-family: 'Raleway', sans-serif
+  font-weight: 700
+  color: white
+  font-size: 2.5em
+
+.left-panel-text
+  font-weight: 300
+  font-family: 'Raleway', sans-serif
+  color: white
+
+.right-panel
+  background-image: url("../img/phone.jpeg")
+  background-size: cover
+  background-position: center
+
+.back-slant-container
+  width: 100%
+  height: 400px
+  overflow: hidden
+  padding-top: 100px
+  float: left
+
+.back-slant
+  width: 120%
+  min-width: 1300px
+  height: 300px
+  transform: rotate(-5deg)
+  background: red
+  overflow: hidden
+  margin-left: -100px
+
+.back-slant-overlay
+  background-image: url("../img/backpack.jpeg")
+  background-position: bottom
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+  opacity: .5
+  position: relative
+  width: 100%
+  padding-top: 360px
+
+.form-container
+  width: 60%
+  margin: 0 20%
+  height: 400px
+  float: left
+
+.form-container-header
+  text-align: center
+
+.form-left
+  width: 50%
+  float: left
+
+input
+  border: 0
+  border: 1px solid red
+  border-radius: 5px
+  width: 350px
+  height: 32px
+  margin-bottom: 50px
+  margin-right: 50px
+  float: left
+
+.form-right
+  width: 50%
+  float: right
+
+textarea
+  width: 400px
+  height: 202px
+  float: right
+  border: 1px solid red
+  border-radius: 5px
+
+.button
+  background: red
+  border: none
+  padding: 20px
+  border-radius: 5px
+  color: white
+  width: 300px
+  font-weight: 700
+  margin-top: 50px
+  margin-left: -160px
+
+.main-button
+  background: red
+  border: none
+  padding: 20px
+  border-radius: 5px
+  color: white
+  width: 300px
+  font-weight: 700
+  margin-top: 50px
+
+.footer-container
+  width: 100%
+  background: black
+  height: 300px
+  margin-top: 100px
+  float: left
+
+.footer-inner-container
+  width: 80%
+  margin: 0 10%
+
+.bottom-logo-container
+  width: 300px
+  float: right
+  margin-top: 200px
+
+.bottom-logo
+  font-family: 'Archivo Black', sans-serif
+  font-size: 4em
+  background: -webkit-linear-gradient(orange, darkred)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  margin: 0
+  padding: 0

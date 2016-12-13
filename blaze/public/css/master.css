@@ -1,0 +1,484 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html {
+  font-size: 16px;
+  font-size: 100%;
+}
+body {
+  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size-adjust: auto;
+}
+.header-container {
+  width: 100%;
+  min-width: 640px;
+  height: 100vh;
+  background: #d13f19;
+  float: left;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.header-overlay {
+  background-image: url("../img/girl.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.inner-container {
+  width: 60%;
+  min-width: 400px;
+  margin: 0 auto;
+  padding-top: 300px;
+}
+.nav {
+  width: 540px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav li {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  padding: 20px 30px;
+}
+.nav li:hover {
+  background: #d13f19;
+  color: #fff;
+  border-radius: 5px;
+}
+@font-face {
+  font-family: devil;
+  src: url("../fonts/devil.ttf");
+}
+.logo-text {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4em;
+  background: -webkit-linear-gradient(#ff7900, #9e130d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.header-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 2.5em;
+  margin: -20px 0 10px;
+  padding: 0;
+  width: 300px;
+}
+.header-thin-subtitle {
+  font-family: 'Railway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+.about-container {
+  height: 60vh;
+  width: 100%;
+  float: left;
+}
+.item-container {
+  width: 70%;
+  margin: 150px 15%;
+}
+.item-box {
+  width: 30%;
+  height: 260px;
+  margin: 0 1.5%;
+  float: left;
+}
+.icon-detail {
+  color: #d13f19;
+  text-align: center;
+}
+.item-text {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+span {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.slant-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  padding-top: 100px;
+  margin-top: 300px;
+  float: left;
+}
+.slant {
+  width: 120%;
+  min-width: 1300px;
+  height: 300px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  background: #d13f19;
+  overflow: hidden;
+  margin-left: -100px;
+}
+.slant-overlay {
+  background-image: url("../img/trail.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+}
+.testimonial-container {
+  width: 100%;
+  height: 200px;
+  float: left;
+  margin: 50px 0 100px;
+}
+.testimonial-text-container {
+  width: 70%;
+  margin: 40px 15%;
+}
+.testimonial-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  background: -webkit-linear-gradient(#ff7900, #9e130d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.hashtag-container {
+  padding-top: 30px;
+}
+.hashtag {
+  font-size: 3.5em;
+}
+.content-container {
+  width: 100%;
+  float: left;
+}
+.panel {
+  width: 50%;
+  height: 700px;
+  float: left;
+  background: #d13f19;
+}
+.left-panel-container {
+  margin: 0 50px;
+  padding-top: 50px;
+}
+.left-panel-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 2.5em;
+}
+.left-panel-text {
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+.right-panel {
+  background-image: url("../img/phone.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.back-slant-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  padding-top: 100px;
+  float: left;
+}
+.back-slant {
+  width: 120%;
+  min-width: 1300px;
+  height: 300px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  background: #d13f19;
+  overflow: hidden;
+  margin-left: -100px;
+}
+.back-slant-overlay {
+  background-image: url("../img/backpack.jpeg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.5;
+  position: relative;
+  width: 100%;
+  padding-top: 360px;
+}
+.form-container {
+  width: 60%;
+  margin: 0 20%;
+  height: 400px;
+  float: left;
+}
+.form-container-header {
+  text-align: center;
+}
+.form-left {
+  width: 50%;
+  float: left;
+}
+input {
+  border: 0;
+  border: 1px solid #d13f19;
+  border-radius: 5px;
+  width: 350px;
+  height: 32px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  float: left;
+}
+.form-right {
+  width: 50%;
+  float: right;
+}
+textarea {
+  width: 400px;
+  height: 202px;
+  float: right;
+  border: 1px solid #d13f19;
+  border-radius: 5px;
+}
+.button {
+  background: #d13f19;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  width: 300px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: -160px;
+}
+.main-button {
+  background: #d13f19;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  width: 300px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.footer-container {
+  width: 100%;
+  background: #222;
+  height: 300px;
+  margin-top: 100px;
+  float: left;
+}
+.footer-inner-container {
+  width: 80%;
+  margin: 0 10%;
+}
+.bottom-logo-container {
+  width: 300px;
+  float: right;
+  margin-top: 200px;
+}
+.bottom-logo {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4em;
+  background: -webkit-linear-gradient(#ff851b, #8b0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+ /*# sourceMappingURL=master.css.map */
